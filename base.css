@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url("Poppins_Regular_400.ttf");
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', 'Arial';
+    overflow-x: hidden;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+body{
+    background-color: white;
+}
+.header{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    position: fixed;
+    padding: 1vmin 0vmin;
+    width: 100vw;
+    color: white;
+    background-color: #0c0116;
+    z-index: 1000;
+}
+.header h1{
+    margin: 0vmin 0vmin 0vmin 3vmin;
+    font-size: 4vmin;
+}
+.header .menu{
+    margin: auto;
+}
+.header .responsive-menu{
+    display: none;
+}
+.header .menu a{
+    margin: 0vmin 10vmin;
+    font-size: 2.5vmin;
+    transition: 0.6s;
+}
+.header .menu a:hover{
+    letter-spacing: 5px;
+}
+.header .menu-button {
+    display: none;
+}

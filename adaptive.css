@@ -1,0 +1,118 @@
+@media (max-width: 968px) {
+
+    .header{
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .header > div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+    }
+    .header > .responsive-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .header > .menu{
+        display: none;
+    }
+    .header > .responsive-menu a{
+        margin: 5vmin 0vmin 1vmin 0vmin;
+    }
+    .header .menu-button{
+        display: flex;
+        margin: 0vmin 10vmin 0vmin 0vmin;
+        cursor: pointer;
+    }
+    /* BANNER*/
+    .banner .item{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .item .left-side{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner .banner-button{
+        width: auto;
+        padding: 1vmin 5vmin;
+        text-align: center;
+    }
+    .banner .banner-button:hover{
+        padding: 1vmin 5vmin;
+        background-color: #6EBF8B;
+    }
+    .banner .item .left-side h3, .banner .item .left-side p{
+        display: none;
+    }
+
+    .banner .item .left-side .info{
+        display: none;
+    }
+
+    .goods{
+        padding: 5vmin 0vmin 0vmin 0vmin;
+    }
+
+    /* INFORMATION */
+    .information{
+        height: 80vmin;
+    }
+
+    .information .owl-carousel .item{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .information .owl-carousel .item .info{
+        display: flex;
+        margin: 0vmin;
+        flex-direction: column;
+    }
+    .information .owl-carousel .item .info .buy-button{
+        margin: 3vmin 0vmin 0vmin 0vmin;
+        text-align: center;
+    }
+    .information .owl-carousel .item .info p{
+        display: none;
+    }
+
+}
+@media (max-width: 768px) {
+
+    .goods .row{
+        flex-direction: column;
+    }
+    .goods .row .card{
+        margin: 4vmin auto 5vmin auto;
+        width: 80vw;
+        height: auto;
+    }
+    .goods .row-2{
+        display: none;
+    }
+
+    /* why-we*/
+    .why-we > div .row{
+        align-items: center;
+        flex-direction: column;
+    }
+    .why-we > div .row .column{
+        width: 80vw;
+    }
+    .sign-in{
+        width: 100vw;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .sign-in >div{
+        width: 80vw;
+    }
+    .s-left-side{
+        margin: 10vmin 0vmin 0vmin 0vmin;
+    }
+}
